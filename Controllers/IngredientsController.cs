@@ -29,6 +29,7 @@ public class IngredientsController : ControllerBase
     {
         var ingredientDomain = new Ingredient
         {
+            Id = ingredient.Id,
             Name = ingredient.Name
         };
 
